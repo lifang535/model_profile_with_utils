@@ -1,9 +1,4 @@
 # from utils import *
-
-# profile = load_profile('traffic_monitoring/', 'person_recognition_32/yolos-tiny.csv')
-
-# print(profile)
-
 import pandas as pd
 from pprint import pprint
 
@@ -51,65 +46,28 @@ def load_duration(app: str, module: str, batch_size: int) -> list:
     durations = pd.read_csv(file, header=None)
     return durations[0].tolist()
 
-# app_1 = 'traffic_monitoring'
-# app_2 = 'emotion_and_action_detection'
-
-# # app: traffic_monitoring
-# profile_1 = load_profile(app_1, 'person_and_car_recognition')
-# profile_2 = load_profile(app_1, 'face_recognition')
-# profile_3 = load_profile(app_1, 'text_extraction')
-# profile_4 = load_profile(app_1, 'information_summary')
-
-# # app: emotion_and_action_detection
-# profile_5 = load_profile(app_2, 'person_recognition')
-# profile_6 = load_profile(app_2, 'face_extraction')
-# profile_7 = load_profile(app_2, 'expression_recognition')
-# profile_8 = load_profile(app_2, 'posture_recognition')
-# profile_9 = load_profile(app_2, 'information_summary')
-
-# pprint(f"app: {app_1}")
-# pprint(profile_1)
-# pprint(profile_2)
-# pprint(profile_3)
-# pprint(profile_4)
-# pprint(f"app: {app_2}")
-# pprint(profile_5)
-# pprint(profile_6)
-# pprint(profile_7)
-# pprint(profile_8)
-# pprint(profile_9)
-
-# # batch_size: 1
-# duration_1_b1 = load_duration(app_1, 'person_and_car_recognition', 1)
-# duration_2_b1 = load_duration(app_1, 'face_recognition', 1)
-# duration_3_b1 = load_duration(app_1, 'text_extraction', 1)
-# duration_4_b1 = load_duration(app_1, 'information_summary', 1)
-# duration_5_b1 = load_duration(app_2, 'person_recognition', 1)
-# duration_6_b1 = load_duration(app_2, 'face_extraction', 1)
-# duration_7_b1 = load_duration(app_2, 'expression_recognition', 1)
-# duration_8_b1 = load_duration(app_2, 'posture_recognition', 1)
-# duration_9_b1 = load_duration(app_2, 'information_summary', 1)
-
-# pprint(f"batch_size: 1")
-# pprint(duration_1_b1)
-# pprint(duration_2_b1)
-# pprint(duration_3_b1)
-# pprint(duration_4_b1)
-# pprint(duration_5_b1)
-# pprint(duration_6_b1)
-# pprint(duration_7_b1)
-# pprint(duration_8_b1)
-# pprint(duration_9_b1)
 
 apps = ['traffic_monitoring', 'emotion_and_action_detection']
 modules = ['person_and_car_recognition', 'face_recognition', 'text_extraction', 'information_summary', 
            'person_recognition', 'face_extraction', 'expression_recognition', 'posture_recognition', 'information_summary']
 batch_sizes = [i for i in range(1, 33)]
 
-# profile_1_s = [load_profile(apps[0], modules[i]) for i in range(4)]
-# profile_2_s = [load_profile(apps[1], modules[i]) for i in range(4, 9)]
-
-profiles = [load_profile(apps[min(i // 4, 1)], modules[i]) for i in range(9)]
+# profiles = [load_profile(apps[min(i // 4, 1)], modules[i]) for i in range(9)]
+profiles = {
+    'traffic_monitoring': {
+        'person_and_car_recognition': load_profile(apps[0], modules[0]),
+        'face_recognition': load_profile(apps[0], modules[1]),
+        'text_extraction': load_profile(apps[0], modules[2]),
+        'information_summary': load_profile(apps[0], modules[3])
+    },
+    'emotion_and_action_detection': {
+        'person_recognition': load_profile(apps[1], modules[4]),
+        'face_extraction': load_profile(apps[1], modules[5]),
+        'expression_recognition': load_profile(apps[1], modules[6]),
+        'posture_recognition': load_profile(apps[1], modules[7]),
+        'information_summary': load_profile(apps[1], modules[8])
+    }
+}
 
 # durations = [[load_duration(apps[min(i // 4, 1)], modules[i], batch_sizes[j]) for j in range(1)] for i in range(9)]
 durations = {
@@ -133,6 +91,3 @@ pprint(profiles)
 
 print('-----------------------------duration-----------------------------')
 pprint(durations)
-
-
-
