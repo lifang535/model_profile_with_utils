@@ -1,0 +1,5 @@
+model_name: cv2.CascadeClassifier('haarcascade_frontalface_default.xml') - cpu
+load_time(ms): 19.12
+image_size: 405x256
+batch_size,first_inference(ms),inference_avg(ms)
+1,31.2,23.35

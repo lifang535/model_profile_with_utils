@@ -1,0 +1,15 @@
+model_name: opus-mt-en-zh
+load_time(ms): 446.66 (first_load_time: 2668.74)
+ENtext_index, batch_size, first_inference(ms), inference_avg(ms), ENtext_length, ENtext,                                                                           CNtext_length, CNtext
+1             1,          1062.59,             71.1,              21,            How about 3 out of 5?                                                             9,             5个中3个怎么样
+2             1,          1067.05,             70.66,             32,            I mean, I'm not a special guest.                                                  17,            我的意思是,我不是一个特别的客人。
+3             1,          1066.83,             89.18,             49,            Frey Lope at that time was filling another glass.                                 13,            当时佛雷洛普在倒另一个杯子
+4             1,          1049.98,             70.6,              25,            Brother, say brother, go.                                                         10,            兄弟,说兄弟,走吧。
+5             1,          1040.25,             58.48,             25,            I have a message for you.                                                         9,             我有一个信息给你。
+6             1,          1057.85,             71.49,             33,            The pasta has a suspicious taste.                                                 8,             面条有可疑的味道
+7             1,          1063.77,             85.06,             37,            If there is nothing else we can do...                                             11,            万一我们无所事事...
+8             1,          1086.75,             108.43,            78,            The municipal headquarter is located in the town of the same name, Villidalgo.    23,            市总部位于同一名称的城镇Villidalgo。
+9             1,          1090.15,             108.35,            59,            In other occasions, it refers to its naturalism or realism.                       21,            在其他场合,它提到它的自然主义或现实主义。
+10            1,          1089.71,             101.43,            72,            They were the first to manage traffic in real time on a mutated network.          20,            他们是第一个在变异网络上实时管理交通的。
+11            1,          1085.87,             107.9,             62,            Ramon, on the other hand, lived with his partner, Lena Inbert.                    27,            而Ramon则和他的搭档Lena Inbert住在一起
+12            1,          1083.88,             101.47,            62,            Two people were reported dead, one of them was a heart attack.                    19,            据报有两人死亡,其中一人是心脏病发作。

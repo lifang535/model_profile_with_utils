@@ -1,0 +1,5 @@
+model_name: cv2.face.LBPHFaceRecognizer_create() - cpu
+load_time(ms): 102.41
+image_size: 405x256
+batch_size,first_inference(ms),inference_avg(ms)
+1,65.67,53.14

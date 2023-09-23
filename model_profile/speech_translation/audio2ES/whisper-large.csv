@@ -1,0 +1,15 @@
+model_name: whisper-large
+load_time(ms): 5847.31
+audio_index, batch_size, first_inference(ms), inference_avg(ms), audio_length(s), ENtext_length, ENtext
+1            1,          5354.68,             609.8,             4.536,           22,             How about 3 out of 5?
+2            1,          5379.11,             719.62,            5.784,           33,             I mean, I'm not a special guest.
+3            1,          5333.58,             775.87,            6.024,           50,             Frey Lope at that time was filling another glass.
+4            1,          4981.38,             631.49,            5.904,           26,             Brother, say brother, go.
+5            1,          4874.87,             616.88,            3.264,           26,             I have a message for you.
+6            1,          4812.13,             612.74,            3.576,           34,             The pasta has a suspicious taste.
+7            1,          5578.19,             671.54,            4.056,           38,             If there is nothing else we can do...
+8            1,          6339.75,             947.37,            6.456,           79,             The municipal headquarter is located in the town of the same name, Villidalgo.
+9            1,          5093.88,             791.9,             5.736,           60,             In other occasions, it refers to its naturalism or realism.
+10           1,          5099.22,             878.06,            7.056,           73,             They were the first to manage traffic in real time on a mutated network.
+11           1,          5102.57,             910.62,            6.936,           63,             Ramon, on the other hand, lived with his partner, Lena Inbert.
+12           1,          5015.66,             823.97,            6.456,           63,             Two people were reported dead, one of them was a heart attack.

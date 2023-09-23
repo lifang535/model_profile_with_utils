@@ -1,0 +1,5 @@
+model_name: pytorch-openpose - gpu
+load_time(ms): 2293.13
+image_size: 405x256
+batch_size,first_inference(ms),inference_avg(ms)
+1,1984.42,218.13
