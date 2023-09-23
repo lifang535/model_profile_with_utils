@@ -1,0 +1,5 @@
+model_name: PIL.ImageDraw.Draw() - cpu
+load_time(ms): 7.22
+image_size: 910x512
+batch_size,first_inference(ms),inference_avg(ms)
+1,24.68,25.0
