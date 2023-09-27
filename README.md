@@ -21,6 +21,6 @@ From: https://github.com/lifang535/emotion_and_action_detection_1
 
 Profile: [emotion_and_action_detection](https://github.com/lifang535/model_profile_with_utils/tree/main/model_profile/emotion_and_action_detection)
 
-updated version: 
+Updated version: 
 
-![Image](https://github.com/lifang535/model_profile_with_utils/edit/main/app.png)
+![Image](https://github.com/lifang535/model_profile_with_utils/blob/main/app.png)
