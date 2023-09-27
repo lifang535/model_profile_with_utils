@@ -20,3 +20,7 @@ Profile: [speech_translation](https://github.com/lifang535/model_profile_with_ut
 From: https://github.com/lifang535/emotion_and_action_detection_1
 
 Profile: [emotion_and_action_detection](https://github.com/lifang535/model_profile_with_utils/tree/main/model_profile/emotion_and_action_detection)
+
+updated version: 
+
+![Image](https://github.com/lifang535/model_profile_with_utils/edit/main/app_png)
