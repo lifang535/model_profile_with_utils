@@ -1,5 +1,5 @@
 model_name: vit-age-classifier - gpu
-load_time(ms): 392.58
+load_time(ms):  5892.66
 image_size: 224x224
 batch_size,first_inference(ms),inference_avg(ms)
 1,1703.35,20.37
