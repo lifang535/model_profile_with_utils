@@ -1,6 +1,6 @@
-model_name: gender-classification-2 - gpu,,
-load_time(ms): 4325.95,,
-image_size: 224x224,,
+model_name: gender-classification-2 - gpu
+load_time(ms): 4325.95
+image_size: 224x224
 batch_size,first_inference(ms),inference_avg(ms)
 1,1838.17,18.13
 2,1873.42,25.29
