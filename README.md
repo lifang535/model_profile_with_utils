@@ -23,4 +23,4 @@ Profile: [emotion_and_action_detection](https://github.com/lifang535/model_profi
 
 Updated version: 
 
-![Image](https://github.com/lifang535/model_profile_with_utils/blob/main/app.png)
+![Image](https://github.com/lifang535/model_profile_with_utils/blob/main/app_updated.png)
