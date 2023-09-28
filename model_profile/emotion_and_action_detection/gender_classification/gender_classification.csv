@@ -1,5 +1,5 @@
 model_name: gender-classification-2 - gpu,,
-load_time(ms): 4325.95 # 上一个模型这个有问题,,
+load_time(ms): 4325.95,,
 image_size: 224x224,,
 batch_size,first_inference(ms),inference_avg(ms)
 1,1838.17,18.13
